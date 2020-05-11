@@ -5,14 +5,14 @@ installed and running in your environment. You can use the IDE of your choice. O
 `composer install`, you should be able to run the test using PHP's built-in server with the command:
 
 ```bash
-$ php -S localhost:8000 -t public
+$ sudo php -S localhost:8000 -t public
 ```
 
 When you are finished with the test, please submit a pull request for review.
 
 ### Task 1
 
-In the `app/view/nav.phtml` file, loop through the contents of the $nav array and create
+In the `app/view/nav.phtml` file, loop through the contents of the `$nav` array and create
 a simple nav object. Make the content of the A tags contain the value of each element in
 the `$nav` array and make the HREF attribute a URL slug of the that value, for example:
 
