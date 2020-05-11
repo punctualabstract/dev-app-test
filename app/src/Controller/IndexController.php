@@ -80,9 +80,9 @@ class IndexController extends AbstractController
         /**
          * Task 3:
          *
-         * Explore the user model object and get a user by the ID passed down to this controller method.
-         * Display that user's information in the view.
-         * Consider what to display in the view if the ID passed does not return a user.
+         * Explore the user model object. Get a user by the ID passed down to this controller method.
+         * Display that user's information in the view however you see fit. Consider what to display
+         * in the view if the ID passed does not return a user.
          */
 
         $this->response->setBody($view->render());
