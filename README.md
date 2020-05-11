@@ -14,8 +14,9 @@ one pull request per task for review.
 ### Task 1
 
 In the `app/view/nav.phtml` file, loop through the contents of the `$nav` array and create
-a simple nav object. Make the content of the A tags contain the value of each element in
-the `$nav` array and make the HREF attribute a URL slug of the that value, for example:
+a simple nav object. Using basic string manipulation, make the content of the A tags contain the
+value of each element in the `$nav` array and make the HREF attribute a URL slug of the that
+value, for example:
 
 ```html
 <a href="/new-orders">New Orders</a>
