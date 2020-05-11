@@ -61,11 +61,11 @@ class IndexController extends AbstractController
 
     public function users()
     {
-        $user        = new Model\User();
+        $userModel   = new Model\User();
         $view        = new View($this->viewPath . '/users.phtml');
         $view->title = 'Active Users';
         $view->nav   = $this->nav;
-        $view->users = $users->getAll();
+        $view->users = $userModel->getAll();
 
         $this->response->setBody($view->render());
         $this->response->send();
@@ -73,9 +73,17 @@ class IndexController extends AbstractController
 
     public function user($id)
     {
-        $view        = new View($this->viewPath . '/users.phtml');
+        $view        = new View($this->viewPath . '/user.phtml');
         $view->title = 'Active Users';
         $view->nav   = $this->nav;
+
+        /**
+         * Task 3:
+         *
+         * Explore the user model object and get a user by the ID passed down to this controller method.
+         * Display that user's information in the view.
+         * Consider what to display in the view if the ID passed does not return a user.
+         */
 
         $this->response->setBody($view->render());
         $this->response->send();
