@@ -8,7 +8,8 @@ installed and running in your environment. You can use the IDE of your choice. O
 $ sudo php -S localhost:8000 -t public
 ```
 
-When you are finished with the test, please submit a pull request for review.
+Please add comments to your code and work where necessary. Also, please submit one commit &
+one pull request per task for review.
 
 ### Task 1
 
