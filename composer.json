@@ -1,0 +1,13 @@
+{
+  "name": "punctualabstract/dev-app-text",
+  "description": "Punctual Developer Application Test",
+  "require": {
+    "php": ">=7.1.0",
+    "popphp/popphp-framework": "3.8.9"
+  },
+  "autoload" : {
+    "psr-4": {
+      "Pab\\": "app/src/"
+    }
+  }
+}
