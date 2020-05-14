@@ -22,7 +22,7 @@ value, for example:
 <a href="/new-orders">New Orders</a>
 ```
 
-*(The `$nav` array variable is already available in this space via the view.)*
+*(The `$nav` array variable is already available in this view scope.)*
 
 ### Task 2
 
