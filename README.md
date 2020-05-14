@@ -26,7 +26,7 @@ value, for example:
 
 ### Task 2
 
-In the `app/view/nav.phtml` file, add a column for the user's email to the table,
+In the `app/view/users.phtml` file, add a column for the user's email to the table,
 containing the user's email.
 
 ### Task 3
