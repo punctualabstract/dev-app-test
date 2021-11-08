@@ -3,8 +3,8 @@
 namespace Pab\Controller;
 
 use Pop\Controller\AbstractController;
-use Pop\Http\Request;
-use Pop\Http\Response;
+use Pop\Http\Server\Request;
+use Pop\Http\Server\Response;
 use Pop\View\View;
 use Pab\Model;
 

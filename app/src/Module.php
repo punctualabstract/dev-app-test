@@ -3,8 +3,8 @@
 namespace Pab;
 
 use Pop\Application;
-use Pop\Http\Request;
-use Pop\Http\Response;
+use Pop\Http\Server\Request;
+use Pop\Http\Server\Response;
 
 class Module extends \Pop\Module\Module
 {
